@@ -1,5 +1,5 @@
 <template>
-    <h1>Hello World</h1>
+    <h1>審神者Project</h1>
     <Counter/>
 </template>
 
