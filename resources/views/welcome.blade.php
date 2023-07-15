@@ -9,6 +9,7 @@
     @vite('resources/js/app.js')
     <!-- Styles -->
     @vite('resources/css/app.css')
+    @vite('resources/css/app.scss')
 </head>
 <body>
     <div id="app"></div>

@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import RouterTestFirst from '@/components/RouterTestFirst.vue'
-import RouterTestSecond from '@/components/RouterTestSecond.vue'
+import Top from '@/components/Top.vue'
+import Reservation from '@/components/Reservation.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'routerTestFirst',
-    component: RouterTestFirst
+    name: 'Top',
+    component: Top
   },
   {
-    path: '/second',
-    name: 'routerTestSecond',
-    component: RouterTestSecond
+    path: '/reservation',
+    name: 'Reservation',
+    component: Reservation
   }
 ]
 
